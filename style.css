@@ -1,0 +1,384 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: gold;
+}
+.header-container {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(254, 175, 72);
+}
+.header-container .logo {
+  width: 20%;
+  height: 100%;
+  /* background-color: rgb(48, 244, 8); */
+  float: left;
+}
+.header-container .logo img {
+  height: 100%;
+  margin-left: 30px;
+}
+
+.header-container .menu {
+  width: 60%;
+  height: 50%;
+  float: left;
+}
+.header-container .menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.header-container .menu ul li {
+  float: left;
+}
+.header-container .menu ul li a {
+  display: block;
+  padding: 23px;
+  color: white;
+  text-shadow: 1px 1px 3px gray;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Battambang";
+  font-weight: bold;
+  opacity: 0.8;
+}
+.menu ul li a:hover {
+  opacity: 1;
+  color: rgb(255, 0, 0);
+}
+.header-container .icon {
+  width: 20%;
+  height: 100%;
+  float: left;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.header-container .icon .fa-cart-plus {
+  margin: 15px 15px;
+
+  cursor: pointer;
+}
+.header-container .icon .fa-bars {
+  margin: 15px 15px;
+  cursor: pointer;
+  display: none;
+}
+.box-title {
+  width: 100%;
+  height: 650px;
+
+  /* background-color: aqua; */
+}
+
+.box-title h1 {
+  font-size: 40px;
+  color: black;
+  text-shadow: 2px 2px 3px gray;
+  transform: translateY(200px);
+  margin-left: 50px;
+  font-family: "Battambang";
+  font-weight: bold;
+  line-height: 70px;
+}
+.banner {
+  width: 100%;
+  height: 650px;
+  /* background-color: bisque; */
+}
+.banner img {
+  transform: translatey(50px);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.featured-prd-container {
+  width: 75%;
+  height: 250px;
+  /* background-color: aqua; */
+  margin: auto;
+  margin-top: 20px;
+}
+.featured-prd-container .item {
+  width: 100%;
+  height: 100%;
+}
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 1px 1px 4px rgb(203, 203, 203);
+  cursor: pointer;
+}
+.all-prd-container {
+  width: 70%;
+  overflow: hidden;
+  margin: auto;
+  /* background-color: #17c3b2; */
+  margin-top: 20px;
+}
+.boxprd-title {
+  width: 100%;
+  height: 80px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gold;
+  text-shadow: 2px 2px 2px rgb(26, 9, 9);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.prd-item {
+  width: 100%;
+  height: 400px;
+  background-color: yellow;
+  position: relative;
+  margin: 20px;
+}
+.prd-item .pic {
+  width: 100%;
+  height: 70%;
+}
+.prd-item .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.prd-item .dic {
+  width: 100%;
+  height: 30%;
+}
+.prd-item .dec h4,
+p {
+  color: black;
+  text-align: center;
+  margin-top: 2px;
+  font-family: sans-serif;
+  text-shadow: 1px 1px 1px gray;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+.dec:hover h4,
+p {
+  opacity: 1;
+}
+
+.box-icon {
+  width: 40px;
+  height: 180px;
+  z-index: 1;
+  /* background-color: rgb(216, 216, 216); */
+  position: absolute;
+}
+.icon-icon {
+  width: 100%;
+  height: 23%;
+  background-color: gold;
+  margin: 10px 1%;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  transform: translate(20px, 50px);
+  display: flex;
+  opacity: 0;
+  transition: 0.5s;
+}
+.action-hover {
+  transform: translate(70px, 50px);
+  opacity: 1;
+}
+.icon-icon .fa-heart {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.icon-icon .fa-eye {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.icon-icon .fa-cart-arrow-down {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.container-ads {
+  width: 75%;
+  height: 500px;
+  /* background-color: blue; */
+  margin: auto;
+  background-image: url("https://adoric.com/blog/wp-content/uploads/2022/04/A-Guide-to-Selling-Clothes-1.jpg");
+}
+label input {
+  color: rgb(255, 255, 255);
+  background-color: rgb(25, 25, 255);
+  margin: 100px;
+  margin-top: 0;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 100px;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: 0.5s;
+  transition: transform 0.3s ease-in-out;
+}
+label input:hover {
+  opacity: 1;
+  transform: translateX(1em);
+}
+
+/* container add container */
+.fuid-catan {
+  width: 75%;
+  overflow: hidden;
+  margin: auto;
+  /* background-color: #17c3b2; */
+  margin-top: 20px;
+  position: relative;
+}
+.prd-catan {
+  width: 100%;
+  height: 400px;
+  /* background-color: yellow; */
+  margin: 5px;
+  box-shadow: 0px 0px 2px 1px rgb(236, 236, 236);
+  position: relative;
+}
+.prd-catan .pic-catan {
+  width: 100%;
+  height: 70%;
+}
+.pic-catan img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-top: 0;
+}
+.prd-catan .dec-catan {
+  width: 100%;
+  height: 30%;
+  background-color: yellow;
+}
+.dec-catan p {
+  color: black;
+}
+.dec-catan h5 {
+  color: black;
+  text-align: center;
+  margin-top: 2px;
+  font-family: sans-serif;
+  text-shadow: 1px 1px 1px gray;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .header-container .menu {
+    width: 100%;
+    position: absolute;
+    transform: translateY(70px);
+    /* background-color: rgb(54, 54, 255); */
+    overflow: hidden;
+    display: none;
+    /* height: 100%; */
+  }
+  .header-container .menu ul li {
+    float: none;
+    line-height: 30px;
+  }
+  .header-container .logo {
+    width: 50%;
+  }
+  .header-container .icon {
+    width: 40%;
+  }
+  .header-container .icon .fa-bars {
+    margin: 15px 15px;
+    cursor: pointer;
+    display: block;
+  }
+  .box-title {
+    height: 400px;
+  }
+  .box-title h1 {
+    transform: translateY(100px);
+  }
+  .banner {
+    height: 400px;
+  }
+  .box-title button {
+    transform: translate(50px, 100px);
+  }
+  /* .item {
+    position: absolute;
+  } */
+  .all-prd-container {
+    transform: translateY(550px);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .prd-item {
+    margin: 10px 1%;
+  }
+  .container-ads {
+    position: absolute;
+    width: 100%;
+    transform: translateY(540px);
+    height: 100%;
+  }
+  .contact {
+    transform: translateY(1300px);
+  }
+  label {
+    transform: translateY(1290px);
+  }
+}
+
+/* css buttin */
+
+button {
+  padding: 0.8em 1.8em;
+  border: 2px solid #17c3b2;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #17c3b2;
+  transform: translate(50px, 200px);
+}
+
+button::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #17c3b2;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+button:hover::before {
+  width: 105%;
+}
+
+button:hover {
+  color: #111;
+}
